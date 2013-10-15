@@ -7,7 +7,7 @@ $ git clone git://github.com/cloudControl/python-websocket-example-app.git
 $ cd python-websocket-example-app
 ~~~
 
-Now you have a small but fully functional WebSocket chat application.
+Now you have a small but fully functional WebSocket chat application which can be locally executed by running `python chat.py` (make sure to have installed all requirements before).
 
 ## Pushing and Deploying the App
 Choose a unique name to replace the `APP_NAME` placeholder for your application and create it on the cloudControl platform:
@@ -49,5 +49,6 @@ Last but not least deploy the latest version of the app with the cctrlapp deploy
 $ cctrlapp APP_NAME/default deploy
 ~~~
 
-Congratulations, you can now see your WebSocket Chat app running at `http[s]://APP_NAME.cloudcontrolapp.com`. Please note that WebSocket would not work under the `APP_NAME.cloudcontrolled.com` subdomain. You can learn more about two routing tiers on our [official documentation]
+Congratulations, you can now see your WebSocket Chat app running at `http[s]://APP_NAME.cloudcontrolapp.com`. Please note that WebSocket would not work under the `APP_NAME.cloudcontrolled.com` subdomain. You can learn more about two routing tiers on our [official documentation].
 
+[official documentation]: https://www.cloudcontrol.com/dev-center/Platform%20Documentation#routing-tier
